@@ -112,6 +112,7 @@ class GameScene: SimpleScene {
             
             if resetButtonNode.contains(location) && (didSwipe == true) {
                 //fix it sound
+                // test
                 self.playSoundFX(popSound)
                 failedFlip()
             }
